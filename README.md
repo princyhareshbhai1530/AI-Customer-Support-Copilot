@@ -2,7 +2,7 @@
 
 A Generative-AI customer support copilot for small and medium-sized businesses.
 It answers customer queries from a company knowledge base (RAG), drafts email
-replies, and automatically triages incoming tickets — exposed through both a
+replies, and automatically triages incoming tickets - exposed through both a
 **FastAPI** backend and an interactive **Streamlit** dashboard.
 
 > Built with **Python, OpenAI API, LangChain, ChromaDB, FastAPI, Streamlit**.
@@ -73,12 +73,12 @@ ai-support-copilot/
 
 ---
 
-## Run it on Windows — step by step
+## Run it on Windows - step by step
 
 ### 0. Prerequisites
-- **Python 3.10–3.12** — install from <https://www.python.org/downloads/> and
+- **Python 3.10–3.12** - install from <https://www.python.org/downloads/> and
   **tick "Add python.exe to PATH"** during setup.
-- An **OpenAI API key** — <https://platform.openai.com/api-keys>.
+- An **OpenAI API key** - <https://platform.openai.com/api-keys>.
 
 Verify Python in **PowerShell**:
 ```powershell
@@ -127,7 +127,7 @@ This reads `data/knowledge_base/`, embeds it, and writes the vector store to
 `data/vector_store/`. Re-run it whenever you change the knowledge base.
 
 ### 6. (Optional) Seed demo analytics
-So the Analytics tab has data immediately — costs **no** API credits:
+So the Analytics tab has data immediately - costs **no** API credits:
 ```powershell
 python -m scripts.seed_demo
 ```
