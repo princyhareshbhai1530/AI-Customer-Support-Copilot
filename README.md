@@ -24,7 +24,7 @@ replies, and automatically triages incoming tickets - exposed through both a
 
 ```
                     ┌────────────────────┐
-                    │  Knowledge base     │  data/knowledge_base/*.md|txt|pdf
+                    │  Knowledge base    │  data/knowledge_base/*.md|txt|pdf
                     └─────────┬──────────┘
                               │  scripts/ingest.py
                               ▼
